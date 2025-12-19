@@ -5,8 +5,7 @@ information and shows Windows toast notifications when thresholds are exceeded.
 
 Features
 - Tkinter GUI with live CPU/memory and instantaneous network upload/download speeds
-- Ping measurement (ms)
-- Windows toast notifications via `win10toast` (falls back to console logging if unavailable)
+- Windows toast notifications via `win10toast`
 - Console mode for use without a GUI
 
 Quick start
@@ -44,4 +43,3 @@ CLI options
 
 Notes
 - If you don't need Windows toast notifications, you can skip installing `win10toast`; notifications will be printed to console/log instead.
-- Running the GUI requires a desktop session.
